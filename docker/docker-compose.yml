@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+  validador-senha:
+    image: validador-senha
+    container_name: validador-senha
+    hostname: validador-senha
+    ports:
+      - "80:8080"
+    restart: always
